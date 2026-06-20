@@ -113,6 +113,16 @@
   padding: 18px;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.value-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 14px rgba(0,0,0,0.1);
 }
 
 .value-card h4 {

@@ -65,18 +65,20 @@ export default function About() {
 
       {/* Values */}
       <div className="about-values">
-        <div className="value-card">
+        <Link to="/products" className="value-card">
           <h4>🚚 Fast Delivery</h4>
           <p>Dispatched within 24 hours, tracked every step.</p>
-        </div>
-        <div className="value-card">
+        </Link>
+
+        <Link to="/products" className="value-card">
           <h4>✅ Quality Checked</h4>
           <p>Every pair inspected before it ships to you.</p>
-        </div>
-        <div className="value-card">
+        </Link>
+
+        <a href="https://wa.me/9779825395584" target="_blank" rel="noreferrer" className="value-card">
           <h4>💬 Real Support</h4>
           <p>Reach us directly on WhatsApp or Facebook anytime.</p>
-        </div>
+        </a>
       </div>
     </section>
   );

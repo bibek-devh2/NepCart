@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import "./ProductCard.css";
 
@@ -7,9 +8,11 @@ export default function ProductCard({ product }) {
 
   return (
     <div className="product-card">
-      <img src={product.image} alt={product.name} />
-      <h3>{product.name}</h3>
-      <p className="product-category">{product.category}</p>
+      <Link to={`/products/${product.id}`} className="product-card-link">
+        <img src={product.images[0]} alt={product.name} />
+        <h3>{product.name}</h3>
+        <p className="product-category">{product.category}</p>
+      </Link>
       <div className="product-bottom">
         <span className="product-price">Rs. {product.price}</span>
         <button onClick={() => addToCart(product)}>Add to Cart</button>

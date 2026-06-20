@@ -18,3 +18,5 @@
   padding: 6px 12px; border-radius: 6px; cursor: pointer; font-size: 13px;
 }
 .product-bottom button:hover { background: #e06900; }
+.product-card-link { text-decoration: none; color: inherit; display: block;
+}

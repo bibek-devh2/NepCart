@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import React from "react";
 import products from "../data/products";
 import ProductCard from "../components/ProductCard";
@@ -9,6 +10,7 @@ export default function Home() {
       <section className="hero">
         <h1>Step Into Style with Nepcart</h1>
         <p>Quality shoes for every occasion, delivered across Nepal.</p>
+          <Link to="/products" className="hero-btn">Shop Now →</Link>
       </section>
 
       <section className="why-section">

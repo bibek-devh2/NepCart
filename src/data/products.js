@@ -86,7 +86,22 @@ const products = [
     price: 1650,
     images: ["/images/walking1.jpg", "/images/walking2.jpg", "/images/walking3.jpg"],
     description: "Cushioned walking shoes for comfort on long days."
+  },
+  {
+    id: 12,
+    name: "Hotstyle Loafers For Men",
+    category: "Casual",
+    price: 1999,
+    images: [
+      "/images/hotstyle-loafers4.webp",
+      "/images/hotstyle-loafers2.webp",
+      "/images/hotstyle-loafers3.webp",
+      "/images/hotstyle-loafers1.webp"
+    ],
+    description: "Comfortable navy knit slip-on loafers with white sole. Lightweight and breathable for all-day wear.",
+    sizes: [6, 7, 8, 9, 10]
   }
+  
 ];
 
 export default products;

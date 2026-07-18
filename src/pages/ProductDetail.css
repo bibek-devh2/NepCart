@@ -101,3 +101,51 @@
   .detail-grid { grid-template-columns: 1fr; }
   .main-image { height: 300px; }
 }
+/* Size selector */
+.size-section {
+  margin-bottom: 20px;
+}
+
+.size-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.size-error {
+  color: #e53935;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.size-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.size-btn {
+  width: 44px;
+  height: 44px;
+  border: 2px solid #ddd;
+  background: #fff;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #333;
+}
+
+.size-btn:hover {
+  border-color: #ff7a00;
+  color: #ff7a00;
+}
+
+.size-btn.selected {
+  background: #ff7a00;
+  border-color: #ff7a00;
+  color: white;
+  font-weight: 600;
+}

@@ -5,7 +5,8 @@ const products = [
     category: "Casual",
     price: 1800,
     images: ["/images/casual-sneakers1.jpg", "/images/casual-sneakers2.jpg", "/images/casual-sneakers3.jpg"],
-    description: "Comfortable everyday white sneakers with a clean design."
+    description: "Comfortable everyday white sneakers with a clean design.",
+    sizes: [6, 7, 8, 9, 10]
   },
   {
     id: 2,
@@ -13,7 +14,8 @@ const products = [
     category: "Boots",
     price: 3200,
     images: ["/images/chelsea1.jpg", "/images/chelsea2.jpg", "/images/chelsea3.jpg"],
-    description: "Sleek black Chelsea boots, perfect for formal and casual wear."
+    description: "Sleek black Chelsea boots, perfect for formal and casual wear.",
+    sizes: [6, 7, 8, 9, 10]
   },
   {
     id: 3,
@@ -21,7 +23,8 @@ const products = [
     category: "Sports",
     price: 1700,
     images: ["/images/fast1.jpg", "/images/fast2.jpg"],
-    description: "Lightweight running shoes with breathable mesh and grip sole."
+    description: "Lightweight running shoes with breathable mesh and grip sole.",
+    sizes: [6, 7, 8, 9, 10]
   },
   {
     id: 4,
@@ -29,7 +32,8 @@ const products = [
     category: "Formal",
     price: 2600,
     images: ["/images/formal-shoes1.jpg", "/images/formal-shoes2.jpg", "/images/formal-shoes3.jpg"],
-    description: "Elegant formal shoes for office and special occasions."
+    description: "Elegant formal shoes for office and special occasions.",
+    sizes: [6, 7, 8, 9, 10]
   },
   {
     id: 5,
@@ -37,7 +41,8 @@ const products = [
     category: "Formal",
     price: 2800,
     images: ["/images/formal-stylish1.jpg", "/images/formal-stylish2.jpg", "/images/formal-stylish3.jpg", "/images/formal-stylish4.jpg", "/images/formal-stylish5.jpg"],
-    description: "Two-tone formal shoes for a sharp, polished look."
+    description: "Two-tone formal shoes for a sharp, polished look.",
+
   },
   {
     id: 6,
@@ -45,7 +50,8 @@ const products = [
     category: "Formal",
     price: 2400,
     images: ["/images/lightweight-slipon1.jpg", "/images/lightweight-slipon2.jpg", "/images/lightweight-slipon3.jpg", "/images/lightweight-slipon4.jpg"],
-    description: "Brown leather slip-on, comfortable for all-day formal wear."
+    description: "Brown leather slip-on, comfortable for all-day formal wear.",
+    sizes: [6, 7, 8, 9, 10]
   },
   {
     id: 7,
@@ -53,7 +59,8 @@ const products = [
     category: "Sports",
     price: 1950,
     images: ["/images/mens1.jpg", "/images/mens2.jpg", "/images/mens3.jpg", "/images/mens4.jpg"],
-    description: "Durable navy sports shoes built for daily training."
+    description: "Durable navy sports shoes built for daily training.",
+    sizes: [6, 7, 8, 9, 10]
   },
   {
     id: 8,
@@ -61,7 +68,8 @@ const products = [
     category: "Casual",
     price: 2100,
     images: ["/images/pilot-loafers1.jpg", "/images/pilot-loafers2.jpg", "/images/pilot-loafers3.jpg"],
-    description: "Sleek slip-on loafers, easy to wear for casual outings."
+    description: "Sleek slip-on loafers, easy to wear for casual outings.",
+
   },
   {
     id: 9,
@@ -69,7 +77,8 @@ const products = [
     category: "Sneakers",
     price: 1750,
     images: ["/images/sneakers-formen1.jpg", "/images/sneakers-formen2.jpg"],
-    description: "Versatile sneakers built for daily wear."
+    description: "Versatile sneakers built for daily wear.",
+    sizes: [6, 7, 8, 9, 10]
   },
   {
     id: 10,
@@ -77,7 +86,8 @@ const products = [
     category: "Casual",
     price: 1900,
     images: ["/images/sneakers-men1.jpg", "/images/sneakers-men2.jpg", "/images/sneakers-men3.jpg"],
-    description: "Versatile white sneakers that pair with any outfit."
+    description: "Versatile white sneakers that pair with any outfit.",
+    sizes: [6, 7, 8, 9, 10]
   },
   {
     id: 11,
@@ -85,7 +95,8 @@ const products = [
     category: "Walking",
     price: 1650,
     images: ["/images/walking1.jpg", "/images/walking2.jpg", "/images/walking3.jpg"],
-    description: "Cushioned walking shoes for comfort on long days."
+    description: "Cushioned walking shoes for comfort on long days.",
+    sizes: [6, 7, 8, 9, 10]
   },
   {
     id: 12,
